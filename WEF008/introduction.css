@@ -1,0 +1,30 @@
+body {
+  background-image: url("sea.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.display-2 {
+  color: white;
+}
+
+.box {
+  position: absolute;
+  left: 0;
+  width: 300px;
+  height: auto;
+  background: black;
+  opacity: 0.6;
+  animation-name: terry;
+  animation-duration: 2s;
+}
+
+@keyframes terry {
+  from {
+    left: 0;
+  }
+  to {
+    left: 100px;
+  }
+}

@@ -1,0 +1,25 @@
+body {
+  background-image: url("sea.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.container-fluid {
+  color: white;
+}
+
+.ter {
+  font-family: "Caveat", cursive;
+  font-weight: bold;
+  font-size: 38px;
+  letter-spacing: 5px;
+}
+
+h1 {
+  font-family: "Caveat", cursive;
+  font-size: 100px;
+  color: aliceblue;
+  text-align: center;
+  margin-top: 40px;
+}
